@@ -1,0 +1,194 @@
+
+.text_color{
+    color: #F05A28;
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+/*    padding: 5%;*/
+/*    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: -17px 7px 23px -5px rgba(0,0,0,0.19);
+    border-radius: 15px 0px 0px 15px;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.icon i{
+    font-size: 40px;
+}
+.text p{
+    margin: 0px;
+    font-size: 14px;
+}
+.text a{
+    color: #F05A28;
+}
+.link_account h4 >a{
+    color: black;
+    text-decoration: none;
+    
+}
+.login-form-2{
+/*    padding: 5%;*/
+    background: #F0F1F3;
+/*    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 12px 6px 22px -4px rgba(0,0,0,0.25);
+    border-radius: 0px 15px 15px 0px;
+}
+.hr{
+    width: 70%;
+}
+.hr hr{
+    border: 1.5px solid #C7C9CB;
+}
+.login-container form{
+    padding: 5%;
+}
+.btnSubmit
+{
+    width: 100%;
+    border-radius: .4rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #F05A28;
+}
+.btnGoogle
+{
+    width: 100%;
+    border-radius: .4rem;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.login-form-2 .btnGoogle{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #E50019;
+}
+
+.btnFacebook
+{
+    width: 100%;
+    border-radius: .4rem;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.login-form-2 .btnFacebook{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #0063B0;
+}
+
+.login-or {
+     position: relative;
+     color: #aaa;
+     margin-top: 92px;
+     margin-bottom: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .span-or {
+     display: block;
+     position: absolute;
+     left: 52%;
+     top: -2px;
+     margin-left: -25px;
+     background-color: #DFDFDE;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     border-radius: 100%;
+ }
+ .hr-or {
+     height: 1px;
+     margin-top: 0px !important;
+     margin-bottom: 0px !important;
+ }
+.login-form-2 .ForgetPwd{
+    color: #F05A28;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.agree_text{
+    font-size: 14px;
+}
+.bg_footer{
+    background: #F7F7F7;
+}
+
+@media screen and (max-width:320px){
+    
+    .login-form-1{      
+        display: none!important;
+       
+    }
+    .login-form-2{      
+        border-radius: 15px!important;
+       
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    
+    .login-form-1{      
+        display: none!important;
+       
+    }
+    .login-form-2{      
+        border-radius: 15px!important;
+       
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    
+    .login-form-1{      
+        display: none!important;
+       
+    }
+    .login-form-2{      
+        border-radius: 15px!important;
+       
+    }
+    
+}
+
+@media screen and (max-width:414px){
+    
+    .login-form-1{      
+        display: none!important;
+       
+    }
+    .login-form-2{      
+        border-radius: 15px!important;
+       
+    }
+    
+}

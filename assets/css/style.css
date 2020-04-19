@@ -1,0 +1,717 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #FBFCFC;
+}
+
+/*Theme fix color going here */
+.text_color{
+ color: #F05A28!important;
+}
+.btn_danger{
+    color: #F05A28!important;
+}
+.bg_danger{
+    background: #F05A28!important;
+}
+.btn_bg_danger{
+    background: #F05A28!important;
+}
+.left_side_active{
+    background: black!important;
+}
+/*Theme fix color end here */
+
+/*Header CSS Going Here*/
+.search_box{
+    background: #F5F5F5!important;
+}
+.border_left{
+    border: none;
+    background: #F5F5F5!important;
+    
+}
+
+.btn_bg_danger:hover{
+    background: #ed4f1a!important;
+}
+.side_see_all{
+    font-size: 14px;
+    
+}
+.input-group input[type="text"]{
+    border: none;
+    background: #F5F5F5!important;
+}
+.break_search{
+    background: #F5F5F5!important;
+    color: #F05A28!important;
+}
+.login_register{
+    float: right!important;
+    margin-top: 32px;
+}
+.login_register a:hover{
+    color: #c64519!important;
+}
+/*Header CSS End Here*/
+
+/*Hero CSS Start Here*/
+.side_margin{
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(335px, -52px, 0px)!important;
+    min-width: 68rem!important;
+    padding: 20px;
+}
+.list_style{
+    list-style: none;
+}
+.list_style li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li:hover{
+    color: #c64519!important;
+}
+.nav li a:hover{
+    color: #c64519!important;
+}
+
+.card_gradient{
+  background: rgb(52,194,230);
+background: linear-gradient(0deg, rgba(52,194,230,1) 0%, rgba(140,52,230,1) 36%, rgba(52,194,230,1) 100%);
+}
+.card_body{
+    display: flex;
+    justify-content: space-between;
+}
+.card_body .right_left_box{
+    width: 35%;
+}
+.card_body .right_right_box{
+    width: 65%;
+}
+.card-body{
+    margin: 0px!important;
+    padding: 0px!important;
+    
+}
+.shop_btn_margin{
+/*    margin-left: 5.5rem!important;*/
+}
+.mic_margin{
+    margin-left: 4rem!important;
+}
+/*Hero CSS End Here*/
+
+/*product CSS going Here*/
+#expo_count_down{
+    margin:auto;
+}
+#expo_count_down tr td div{         
+    width: auto;
+    height: auto;
+    padding: 15px 20px;
+    background: gray;
+    float: left;
+    margin: 0 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.expo_left{
+    width: 20%;
+}
+.expo_middle{
+    width: 30%;
+}
+.expo_right{
+    width: 50%;
+}
+.hr_line{
+    border: 8px solid gray;
+    border-radius: 10px;
+}
+
+.expo{
+    background: #F05A28;
+    height: 400px;
+}
+.product_text{
+    justify-content: space-between;
+}
+.category_font_size{
+    color: gainsboro;
+    font-size: 12px;
+}
+/*
+.event_text{
+    color: gray;
+}
+*/
+.view_more_btn{
+    border-radius: 20px !important;
+    font-size: 20px;
+    
+}
+.item{
+    background: white;
+    padding: 7px;
+} .item p{
+    font-size: 12px;
+}
+.item_btn{
+    background: white;
+    font-size: 16px;
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+}
+
+/*product CSS End Here*/
+
+/*Ecommerce Buyers CSS going Here*/
+.ecommerce{
+    height: 100%;
+    background-image: url(../img/ecommere_client.jpg);
+    background-size: cover;
+    padding: 10px;
+    
+}
+.ecommerce_product_text{
+    
+}
+.text_discount{
+    border-radius: 18px;
+}
+/*Ecommerce Buyers CSS End Here*/
+
+
+
+/*Treanding CSS Going Here*/
+.tren_card ul li{
+    list-style: none;    
+}
+
+.tren_card ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+/*Treanding CSS End Here*/
+
+/*Related product CSS going Here*/
+.related_product_sec{
+    background: white;
+}
+/*Related product CSS End Here*/
+
+/*We Connect CSS going Here*/
+.
+custom_padding{
+    
+}
+.we_connect_social_item p{
+    font-size: 12px;
+    margin: 0px;
+    
+}
+.social_item{
+    display: inline-block;
+    padding: 7px;
+    border-radius: 100%;
+}
+#title{
+    height: 55px;
+}
+#title,#describe_something{
+    background: #F5F5F5;
+    border: none;
+}
+.dropdwon_edit{
+    width: 100%;
+}
+.dropdwon_edit .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: 10rem!important;    
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+#title2{
+    background: #F5F5F5;
+    border: none;
+    margin-top: 0px;
+    width: 100%;
+}
+.request_btn_bg_color{
+    border-radius: 20px !important;
+    color: #F05A28!important;
+    border: 2px solid #F05A28!important;
+}
+.request_btn_bg_color:hover{
+    color: white !important;
+    background: #F05A28!important;
+}
+.we_connect_form{}
+/*We Connect CSS End Here*/
+
+/*footer section CSS going Here*/
+.footer_section{}
+.about_company ul{
+    list-style: none;
+}
+.about_company ul li{
+    margin-top: 5px;
+}
+.about_company ul li a{
+    text-decoration: none;
+    color: black;
+}
+.help_center ul{
+    list-style: none;
+}
+.help_center ul li{
+    margin-top: 5px;
+}
+.help_center ul li a{
+    text-decoration: none;
+    color: black;
+}
+.supply_tool ul{
+    list-style: none;
+}
+.supply_tool ul li{
+    margin-top: 5px;
+}
+.supply_tool ul li a{
+    text-decoration: none;
+    color: black;
+}
+.buyer_tool ul{
+    list-style: none;
+}
+.buyer_tool ul li{
+    margin-top: 5px;
+}
+.buyer_tool ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.event ul{
+    list-style: none;
+}
+.event ul li{
+    margin-top: 5px;
+}
+.event ul li a{
+    text-decoration: none;
+    color: black;
+}
+.scroll_top ul{
+    list-style: none;
+}
+.scroll_top ul li{
+    margin-top: 5px;
+}
+.scroll_top ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*Happy Client going here*/
+.happy_customer_sec{
+    background: white;
+}
+.jumbotron_edit{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.jumbotron_edit .video{
+    border-radius: 10px;
+}
+.parent-box{     
+     display: flex;
+ }
+ .box{
+     margin: 10px;
+
+ }
+.carousel_video{
+    padding: 8px;
+   
+}
+.carousel_video_item{
+    border-radius: 10px;
+}
+/*Happy Client end here*/
+
+
+/*scroll top start*/
+#scrollTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#scrollTop:hover {
+  background-color: #fff; /* Add a dark-grey background on hover */
+}
+/*scroll top end*/
+
+/*small footer going here*/
+.small_footer{
+    background: #F0F1F3;
+}
+.follow_line{
+    border-right: 1.5px solid gray!important;
+    font-size: 16px!important;
+}
+
+.facebook a{
+    color: white;
+    text-decoration: none;
+}
+.facebook i{
+    font-size: 30px;    
+    padding: 1rem;
+    background: #3D5A96;
+    border-radius: 100%;
+}
+
+.twitter a{
+    color: white;
+    text-decoration: none;
+}
+.twitter i{
+    font-size: 30px;    
+    padding: 1rem;
+    background: #2AA3EF;
+    border-radius: 100%;
+}
+
+.youtube a{
+    color: white;
+    text-decoration: none;
+}
+.youtube i{
+    font-size: 30px;    
+    padding: 1rem;
+    background: #F52929;
+    border-radius: 100%;
+}
+
+.google_plus a{
+    color: white;
+    text-decoration: none;
+}
+.google_plus i{
+    font-size: 30px;    
+    padding: 1rem;
+    background: #DA483F;
+    border-radius: 100%;
+}
+
+.linkedin a{
+    color: white;
+    text-decoration: none;
+}
+.linkedin i{
+    font-size: 30px;    
+    padding: 1rem;
+    background: #007AB7;
+    border-radius: 100%;
+}
+.terms{
+    border-right: 1.5px solid gray;
+}
+.terms a{
+    font-size: .8rem!important;
+}
+.privacy{
+    border-right: 1.5px solid gray;
+}
+.privacy a{
+    font-size: .8rem!important;
+}
+.link_us a{
+    font-size: .8rem!important;
+}
+
+/*Responsive going here*/
+
+
+
+@media screen and (max-width: 320px) {
+    .brand_res{
+        margin: auto!important;
+    }
+    .border_left_res{
+        font-size: .4em!important;
+    }
+    .search_btn_res{
+        font-size: .6em!important;
+    }
+    .search_input_text_res{
+        font-size: .6em!important;
+    }
+    .side_margin{        
+        transform: translate3d(-2px, 1px, 0px)!important;
+        min-width: 11rem!important;
+        padding: 20px;
+    }
+    .dropdwon_edit .dropdown-toggle::after{
+        margin-left: 6rem!important; 
+    }
+    .we_connect_social_items{
+        margin-right: 0px!important;
+    }
+    .we_connect_social{
+        border-right: none;
+        text-align: center;
+    }
+   .header_text_res{
+        font-size: 20px!important; 
+    }
+    .search_box{
+        margin-top: 0px !important;
+    }
+    .login_register{
+        margin-top: 0px !important;
+    }
+    .footer_socials{
+        text-align: center!important;
+    }
+    .follow_line{
+        text-align: center!important;
+        border-right: none!important;
+    }
+    .linkedin i{
+        font-size: 10px;    
+        padding: .5rem;    
+    } 
+    .google_plus i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .youtube i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .twitter i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+     .facebook i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .facebook{
+        margin-left: 4px !important;
+    }
+    .terms a{
+        font-size: .7rem!important;
+    }
+    .privacy a{
+        font-size: .7rem!important;
+    }
+    .link_us a{
+        font-size: .7rem!important;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .follow_line{
+        text-align: center!important;
+        border: none;
+    }
+    
+}
+
+@media screen and (max-width: 360px ) {
+    .brand_res{
+        margin: auto!important;
+    }
+    .border_left_res{
+        font-size: .4em!important;
+    }
+    .search_btn_res{
+        font-size: .6em!important;
+    }
+    .search_input_text_res{
+        font-size: .6em!important;
+    }
+    .side_margin{        
+        transform: translate3d(-2px, 1px, 0px)!important;
+        min-width: 11rem!important;
+        padding: 20px;
+    }
+    .dropdwon_edit .dropdown-toggle::after{
+        margin-left: 10rem!important; 
+    }
+    .search_box{
+        margin-top: 0px !important;
+    }
+    .login_register{
+        margin-top: 0px !important;
+    }
+    .follow_line{
+        padding: 0px !important;
+        border: none;
+    }
+    .terms{
+        padding: 0px!important;
+    }
+    .privacy{
+        padding: 0px!important;
+    }
+    .link_us{
+        padding: 0px!important;
+    }
+    
+    .terms a{
+        font-size: .7rem!important;
+    }
+    .privacy a{
+        font-size: .7rem!important;
+    }
+    .link_us a{
+        font-size: .7rem!important;
+    }
+}
+
+@media screen and (min-width:375px) {
+    
+    .terms{
+        padding: 0px!important;
+    }
+    .privacy{
+        padding: 0px!important;
+    }
+    .link_us{
+        padding: 0px!important;
+    }
+    
+ 
+    
+}
+@media screen and (max-width:375px){
+     .search_box{
+        margin-top: 0px !important;
+    }
+    .login_register{
+        margin-top: 0px !important;
+    }
+    .side_margin{        
+        transform: translate3d(-2px, 1px, 0px)!important;
+        min-width: 11rem!important;
+        padding: 20px;
+    }
+    .follow_line{        
+        border-right: none!important;
+    }
+}
+
+@media screen and (max-width:414px){
+    .search_box{
+        margin-top: 0px !important;
+    }
+    .login_register{
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .side_margin{        
+        transform: translate3d(240px, 1px, 0px)!important;
+        min-width: 30rem!important;
+        padding: 20px;
+    }
+   .dropdwon_edit .dropdown-toggle::after{
+        margin-left: 9rem!important; 
+    }
+    .terms{
+        border-right: none!important;
+    }
+    .privacy{
+        border-right: none!important;
+    }
+    .link_us{
+        border-right: none!important;
+    }
+    .terms a{
+        font-size: .5rem!important;
+    }
+    .privacy a{
+        font-size: .5rem!important;
+    }
+    .link_us a{
+        font-size: .5rem!important;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 960px) {
+   
+    .follow_line{
+        text-align: center!important;
+    }
+    .footer_socials{
+        text-align: center!important;
+    }
+    .linkedin i{
+        font-size: 15px;    
+        padding: .5rem; 
+    } 
+    
+    .google_plus i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .youtube i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .twitter i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+     .facebook i{
+        font-size: 15px;    
+        padding: .5rem;
+    }
+    .facebook{
+        margin-left: 4px !important;
+    }
+}
+
+
+/*small footer end here*/
+/*footer section CSS End Here*/
